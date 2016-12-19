@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LifeCycleTest</string>
+    <string name="tvText1">Oncreate count</string>
+    <string name="tvText2">Onpause count</string>
+    <string name="tvText3">Onresume count</string>
+    <string name="butText">next activity</string>
+    <string name="butText1">main Activity</string>
+    <string name="tMesg">On Create Count</string>
+    <string name="tMesg1">On Pause Count</string>
+    <string name="tMesg2">On Resume Count</string>
+    <string name="btnMesg">Main activity</string>
+</resources>

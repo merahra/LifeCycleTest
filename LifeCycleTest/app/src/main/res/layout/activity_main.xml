@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.begginers.app2.lifecycletest.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_margin="@dimen/margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvOut1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvText1"
+            android:layout_marginBottom="@dimen/marginBottom"/>
+        <TextView
+            android:id="@+id/tvOut2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvText2"
+            android:layout_marginBottom="@dimen/marginBottom"/>
+        <TextView
+            android:id="@+id/tvOut3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvText3"
+            android:layout_marginBottom="@dimen/marginBottom"/>
+        <Button
+            android:id="@+id/btnChileActivity"
+            android:text="@string/butText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
